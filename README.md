@@ -2,6 +2,13 @@
 
 This is a dataset of comments from the Bulgarian news site [dnes.bg](https://dnes.bg/). The repository contains the code needed to extract the comments. Comments are stored in a CSV format along with their author's handle and the positive and negative votes they received.
 
+
+### Dataset
+
+The csv file can be found in the output directory. It contains comments extracted from the news articles categorized as "internal politics", posted between 04-2023 and 06-2023.
+
+This news site was selected because of the toxic nature of the comments and lack of moderation. The aim is to use it to fine tune an LLM and distill the opinions held by part of the general public on political matters.
+
 # Usage
 
 Install dependencies:
