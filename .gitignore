@@ -1,3 +1,4 @@
 output/
 progress.json
 .idea/
+__pycache__/
